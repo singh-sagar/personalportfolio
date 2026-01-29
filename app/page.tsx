@@ -18,7 +18,7 @@ export default function Home() {
               </div>
           </div>
        </div>
-       {/* second div : holding the education sections*/}
+       {/* second div : holding the education sections,adding*/}
        <div className="max-w-6xl w-full flex justify-between items-center px-20 bg-black">
          <div className="bg-red-100 max-w-6xl w-full p-20 ">
            <div className="">

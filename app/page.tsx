@@ -4,7 +4,7 @@ import Card from "./components/card";
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-white font-sans ">
-      <div className=" min-h-screen max-w-6xl w-full bg-red-100 pt-10 mx-auto flex flex-col gap-20">
+      <div className=" min-h-screen max-w-6xl w-full bg-red-100 pt-10 mx-auto flex flex-col gap-10">
         {/* First Div: About Section */}
         {/* need fixing */}
         <div className=" max-w-6xl w-full  flex  justify-between items-center px-20 bg-black">
@@ -49,14 +49,17 @@ export default function Home() {
                 <Card
                   title="Lovely Professional University"
                   description="B.Tech. in Computer Science : 2018-2022"
-                  imageSrc="/LPU.png"
+                  imageSrc="/lpuimage.png"
                 />
               </div>
             </div>
           </div>
         </div>
+        {/* third div here for my socials */}
+        <div className="w-full bg-black px-20">
+          <div> here goes the social media stuff</div>
+        </div>
       </div>
-      //{" "}
     </div>
   );
 }

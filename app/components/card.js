@@ -1,4 +1,5 @@
 import Image from "next/image";
+// import { useState, useRef } from "react";
 const Card = ({ title, description, imageSrc }) => {
   return (
     <div className="w-full flex flex-col rounded-xl overflow-hidden border border-gray-300 bg-gray-100 ">
@@ -8,7 +9,7 @@ const Card = ({ title, description, imageSrc }) => {
         <div className="w-3 h-3 rounded-full bg-green-400"></div>
         <div className="flex-1 h-3 bg-white rounded-xl"></div>
       </div>
-      <div className="h-48 w-full bg-blue-500 relative">
+      <div className="h-24 w-full bg-blue-500 relative">
         <Image src={imageSrc} fill className="object-cover" alt={title} />
       </div>
       <div className="p-4 bg-white flex flex-col gap-1 border-t border-gray-200">

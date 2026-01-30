@@ -4,7 +4,7 @@ export default function VerifiedIcon({ className = "w-10 h-10" }) {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
-      fill="#009CF6" // This is the specific blue from your SVG
+      fill="#009CF6" // This is the specific blue for SVG
       className={className}
     >
       <path

@@ -20,8 +20,18 @@ export default function Home() {
        </div>
        {/* second div : holding the education sections,adding*/}
        <div className="max-w-6xl w-full flex justify-between items-center px-20 bg-black">
-         <div className="bg-red-100 max-w-6xl w-full p-20 ">
-           <div className="">
+        {/* PARENT: 
+        1. flex: aligns children in a row.
+        2. p-10: padding from the outer edges.
+        3. gap-10: space between the two black boxes. 
+           (Note: p-10 and gap-10 use the same size unit for uniformity)
+         */}
+         <div className="bg-red-100 max-w-6xl w-full flex gap-10 p-0 ">
+          {/* second div : holding the education sections,adding*/}
+           <div className="bg-white flex-1 h-64">
+              
+           </div>
+           <div className="bg-white  flex-1 h-64">
 
            </div>
             

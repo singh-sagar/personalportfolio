@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 // import { useState, useRef } from "react";
 const Card = ({ title, description, imageSrc }) => {
   return (

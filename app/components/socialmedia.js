@@ -15,12 +15,16 @@ const SocialButton = ({ path, link, popupContent }) => {
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      className="bg-black text-white p-3 rounded-xl flex items-center justify-center hover:scale-110 duration-200 cursor-pointer w-12 h-12"
+      className="bg-black text-white p-3 rounded-xl flex items-center justify-center hover:scale-110
+       duration-200 cursor-pointer w-12 h-12"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
       {ishovered && popupContent && (
-        <div className="absolute top-full mb-2 left-7/8 -translate-x-1/2  text-white text-xs py-1 px-2 rounded shadow-lg whitespace-nowrap">
+        <div
+          className="absolute top-full mb-2 left-7/8 -translate-x-1/2  text-white text-xs 
+        rounded shadow-lg rounded-xl whitespace-nowrap"
+        >
           {popupContent}
         </div>
       )}

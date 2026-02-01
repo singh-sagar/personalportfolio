@@ -1,9 +1,10 @@
+// "use client";
 import Image from "next/image";
-
 // import { useState, useRef } from "react";
+
 const Card = ({ title, description, imageSrc }) => {
   return (
-    <div className="w-full flex flex-col rounded-xl overflow-hidden border border-gray-300 bg-gray-100 ">
+    <div className="w-full hover:scale-110  duration-200 flex flex-col rounded-xl overflow-hidden border border-gray-300 bg-gray-100 ">
       <div className="h-8 bg-gray-100 flex items-center px-4 gap-2 border-b border-gray-400">
         <div className="w-3 h-3 rounded-full bg-red-400"></div>
         <div className="w-3 h-3 rounded-full bg-yellow-400"></div>
@@ -18,6 +19,7 @@ const Card = ({ title, description, imageSrc }) => {
         <p className="text-sm text-gray-600">{description}</p>
       </div>
     </div>
+    // </div>
   );
 };
 export default Card;

@@ -4,6 +4,7 @@ import Card from "./components/card";
 import Popup from "./components/popUp";
 import TwitterPop from "./components/twitterPop";
 import SocialButton from "./components/socialmedia";
+import GithubGrpah from "./components/githubCalendar";
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-white font-sans ">
@@ -39,7 +40,7 @@ export default function Home() {
         3. gap-10: space between the two black boxes. 
            (Note: p-10 and gap-10 use the same size unit for uniformity)
          */}
-            <div className="bg-white max-w-6xl w-full flex gap-10 p-0 ">
+            <div className="bg-white max-w-6xl w-full flex gap-10 p-0 py-3">
               {/* second div : holding the education sections,adding*/}
               <div className="bg-white flex-1   ">
                 <Card
@@ -109,7 +110,7 @@ export default function Home() {
         </div>
         {/* fourth div here containing my projects */}
         <div className="w-full px-20">
-          <div className="flex flex-col bg-white w-full mx-auto gap-10">
+          <div className="flex flex-col bg-white w-full mx-auto gap-3">
             <p className="text-xl font-extrabold text-black">projects</p>
             <div className="bg-white max-w-6xl w-full flex gap-10 p-0">
               <div className="bg-white flex-1   ">
@@ -148,6 +149,9 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </div>
+        <div className="w-full px-20">
+          <GithubGrpah />
         </div>
         {/* footer notes foorter notes */}
         <div className="h-100 bg-black"></div>

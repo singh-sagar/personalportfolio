@@ -4,7 +4,7 @@ import Card from "./components/card";
 import Popup from "./components/popUp";
 import TwitterPop from "./components/twitterPop";
 import SocialButton from "./components/socialmedia";
-import GithubGrpah from "./components/githubCalendar";
+import GithubGraph from "./components/githubCalendar";
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-white font-sans ">
@@ -151,7 +151,10 @@ export default function Home() {
           </div>
         </div>
         <div className="w-full px-20">
-          <GithubGrpah />
+          <div>
+            <p className="text-xl font-extrabold text-black">github stats</p>
+            <GithubGraph />
+          </div>
         </div>
         {/* footer notes foorter notes */}
         <div className="h-100 bg-black"></div>
